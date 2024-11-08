@@ -1,8 +1,18 @@
-# React + Vite
+path finder ( Manhattan distance )
+Find the path from (S) to (G) using A* algorithm associated with (Manhattan distance) algorithm, the app should display the initial board
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+user can add nodes (their coordinates and their connections )
 
-Currently, two official plugins are available:
+the board shows the nodes ( S, A, C ...etc ) and their cost which (Manhattan distance) is used to find the cost of each node
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+after finding the path open another windows and show the solution paths in order
+
+Requirements:
+Initial board is grid based UI
+Main Logic: no libraries is allowed
+Backend: Fast-api preferred in case you do client-server
+GUI: Tkinter or any other python library, in case you do client-server preferred to use (React, Vue, angular ...etc any front end library) + any UI library (shadcn, Antd, chakra, MUI) + any other UI/Chart library
+(you can use if you choose web UI) https://anseki.github.io/leader-line/
+(you can use if you choose web UI) https://g6.antv.antgroup.com/en/
+Use the (Manhattan distance) to find each nodes cost
+show the solution paths in order
